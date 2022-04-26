@@ -8,25 +8,30 @@
     </div>
   </nav>
   <router-view/>
-  <HelloWorld v-if='$route.name == "home"'></HelloWorld>
-  <footer><FooterMiami/></footer>
+  <div v-if='$route.name == "home"'>
+    <img class="img-fluid une" src="../src/assets/1.jpg" alt="">
+    <img class="img-fluid insta" src="../src/assets/insta.png" @click="goInsta()" alt="">
+    <img class="img-fluid reseau" src="../src/assets/facebook.png" alt="">
+    <img class="img-fluid facebook" src="../src/assets/reseau.png" @click="goFacebook()" alt="">
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import FooterMiami from './components/FooterMiami.vue'
 export default {
   name: 'App',
 
-  components: {
-    HelloWorld : HelloWorld, FooterMiami
-  },
+
 
   methods: {
     goHome(){
       this.$router.push('/');
-      
-    }
+    },
+    goInsta(){
+      window.location.href="https://instagram.com/au_miami?igshid=YmMyMTA2M2Y=";
+    },
+    goFacebook(){
+      window.location.href="https://www.facebook.com/profile.php?id=100063541659991";
+    },
   }  
 }
 </script>
@@ -81,7 +86,30 @@ nav {
   }
 
 }
-footer{
-  position: fixed;
+.une{
+  position:absolute;
+  top:25%;
+  right:4.5%;
+  width:90%;
+}
+.facebook{
+  position:relative;
+  top:770px;
+  left:-15%;
+  width:15%;
+}
+
+.insta{
+  position:absolute;
+  top:767px;
+  right:50%;
+  width:15%;
+}
+
+.reseau{
+  position:relative;
+  top:820px;
+  left:6%;
+  width:50%;
 }
 </style>
