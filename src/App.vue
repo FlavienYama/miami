@@ -9,15 +9,17 @@
   </nav>
   <router-view/>
   <HelloWorld v-if='$route.name == "home"'></HelloWorld>
+  <footer><FooterMiami/></footer>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import FooterMiami from './components/FooterMiami.vue'
 export default {
   name: 'App',
 
   components: {
-    HelloWorld : HelloWorld
+    HelloWorld : HelloWorld, FooterMiami
   },
 
   methods: {
@@ -78,5 +80,8 @@ nav {
     }
   }
 
+}
+footer{
+  position: fixed;
 }
 </style>
