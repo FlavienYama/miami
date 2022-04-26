@@ -88,7 +88,7 @@ nav {
 }
 .une{
   position:absolute;
-  top:25%;
+  top:30%;
   right:4.5%;
   width:90%;
 }
