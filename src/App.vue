@@ -13,15 +13,16 @@
     <div v-if='$route.name == "home"'>
       <img class="img-fluid une" src="../src/assets/1.jpg" alt="Une Programmation">
     </div>
-  </body>
-
-  <footer>
     <div v-if='$route.name == "home"' class="foot">
-      <img class="img-fluid insta" src="../src/assets/insta.png" @click="goInsta()" alt="Lien instagram Au Miami">
-      <img class="img-fluid reseau" src="../src/assets/reseau.png" alt="Réseau Au Miami">
-      <img class="img-fluid facebook" src="../src/assets/fb.png" @click="goFacebook()" alt="Lien facebook Au Miami">
+      <div class="links">
+        <img class="img-fluid insta" src="../src/assets/insta.png" @click="goInsta()" alt="Lien instagram Au Miami">
+        <img class="img-fluid facebook" src="../src/assets/fb.png" @click="goFacebook()" alt="Lien facebook Au Miami">
+      </div>
+      <div class="network">
+        <img class="img-fluid reseau" src="../src/assets/reseau.png" alt="Réseau Au Miami">
+      </div>
     </div>
-  </footer>
+  </body>
 
 </template>
 
@@ -107,297 +108,27 @@ nav {
   top:185px;
   width:80%;
   max-width:80%;
-  margin-bottom: -30%;
 }
 
 .foot{
-  position:absolute;
-  top:75%;
+  position:relative;
+  top:355px;
+  max-width:75%;
+  left:15%;
+  display:flex;
+  flex-direction: column;
 
-  .insta{ 
-    position: absolute;
-    top:88%;
-    left:35%;
-    width:15%;
-  }
-  .facebook{
-    position: absolute;
-    top:90%;
-    left:55%;
-    width:15%;
-  }
-  .reseau{
-    position:relative;
-    top:115px;
-    width:80%;
-  }
-}
+  .links{
+    display: flex;
+    justify-content: center;
 
-@media only screen and (min-width: 500px) {
-.div_nav{
-    position: absolute;
-    display:flex;
-    justify-content: space-evenly;
-    width:80%;
-    left:10%;
-    top:90%;
-  a {
-      font-weight: bold;
-      font-family: "Golden";
-      font-size: 52px;
-      text-decoration: none;
-      color: white;
-
-      &.router-link-exact-active {
-        color: #e50b7e;
-      }
-    }
-  }
-  .une{
-    position:absolute;
-    top:30%;
-    right:19%;
-    width:60%;
-    margin-bottom: -30%;
-  }
-
-  .foot{
-  position:absolute;
-  top:105%;
-
-  .insta{ 
-    position: absolute;
-    top:18%;
-    left:40%;
-    width:15%;
-  }
-  .facebook{
-    position: absolute;
-    top:20%;
-    left:60%;
-    width:15%;
-  }
-  .reseau{
-    position:relative;
-    top:115px;
-    left:8%;
-    width:70%;
-  }
-}
-}
-
-@media only screen and (min-width: 769px) {
-.div_nav{
-    position: absolute;
-    display:flex;
-    justify-content: space-evenly;
-    width:80%;
-    left:10%;
-    top:90%;
-  a {
-      font-weight: bold;
-      font-family: "Golden";
-      font-size: 52px;
-      text-decoration: none;
-      color: white;
-
-      &.router-link-exact-active {
-        color: #e50b7e;
-      }
-    }
-  }
-  .une{
-    position:absolute;
-    top:30%;
-    right:19%;
-    width:60%;
-    margin-bottom: -30%;
-  }
-
-  .foot{
-  position:absolute;
-  top:135%;
-  right:23%;
-
-  .insta{ 
-    position: absolute;
-    top:18%;
-    left:40%;
-    width:15%;
-  }
-  .facebook{
-    position: absolute;
-    top:20%;
-    left:60%;
-    width:15%;
-  }
-  .reseau{
-    position:relative;
-    top:115px;
-    left:8%;
-    width:70%;
-  }
-}
-}
-
-@media only screen and (min-width: 1060px) {
-.div_nav{
-    position: absolute;
-    display:flex;
-    justify-content: space-evenly;
-    width:80%;
-    left:10%;
-    top:90%;
-  a {
-      font-weight: bold;
-      font-family: "Golden";
-      font-size: 52px;
-      text-decoration: none;
-      color: white;
-
-      &.router-link-exact-active {
-        color: #e50b7e;
-      }
-    }
-  }
-  .une{
-    position:absolute;
-    top:30%;
-    right:19%;
-    width:60%;
-    margin-bottom: -30%;
-  }
-
-  .foot{
-  position:absolute;
-  top:140%;
-  right:23%;
-
-  .insta{ 
-    position: absolute;
-    top:18%;
-    left:40%;
-    width:15%;
-  }
-  .facebook{
-    position: absolute;
-    top:20%;
-    left:60%;
-    width:15%;
-  }
-  .reseau{
-    position:relative;
-    top:115px;
-    left:8%;
-    width:70%;
-  }
-}
-}
-@media only screen and (min-width: 1440px) {
-.div_nav{
-    position: absolute;
-    display:flex;
-    justify-content: space-evenly;
-    width:80%;
-    left:10%;
-    top:90%;
-  a {
-      font-weight: bold;
-      font-family: "Golden";
-      font-size: 52px;
-      text-decoration: none;
-      color: white;
-
-      &.router-link-exact-active {
-        color: #e50b7e;
-      }
-    }
-  }
-  .une{
-    position:absolute;
-    top:30%;
-    right:19%;
-    width:60%;
-    margin-bottom: -30%;
-  }
-
-.foot{
-  position:absolute;
-  top:180%;
-  right:30%;
-
-    .insta{ 
-      position: absolute;
-      top:18%;
-      left:40%;
-      width:15%;
+    .insta{
+      width:30%;
     }
     .facebook{
-      position: absolute;
-      top:20%;
-      left:60%;
-      width:15%;
-    }
-    .reseau{
-      position:relative;
-      top:115px;
-      left:8%;
-      width:70%;
+      width:30%;
+      height:30%;
     }
   }
-}
-
-@media only screen and (min-width: 2560px) {
-.div_nav{
-    position: absolute;
-    display:flex;
-    justify-content: space-evenly;
-    width:80%;
-    left:10%;
-    top:90%;
-  a {
-      font-weight: bold;
-      font-family: "Golden";
-      font-size: 52px;
-      text-decoration: none;
-      color: white;
-
-      &.router-link-exact-active {
-        color: #e50b7e;
-      }
-    }
-  }
-  .une{
-    position:absolute;
-    top:30%;
-    right:19%;
-    width:60%;
-    margin-bottom: -30%;
-  }
-
-  .foot{
-  position:absolute;
-  top:280%;
-  right:38%;
-
-  .insta{ 
-    position: absolute;
-    top:18%;
-    left:40%;
-    width:15%;
-  }
-  .facebook{
-    position: absolute;
-    top:20%;
-    left:60%;
-    width:15%;
-  }
-  .reseau{
-    position:relative;
-    top:115px;
-    left:8%;
-    width:70%;
-  }
-}
 }
 </style>
