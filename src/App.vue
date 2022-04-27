@@ -105,16 +105,17 @@ nav {
 
 .une{
   position:relative;
-  top:185px;
+  top:195px;
   width:80%;
   max-width:80%;
+  margin-bottom: -100px;
 }
 
 .foot{
   position:relative;
-  top:355px;
+  top:350px;
   max-width:75%;
-  left:15%;
+  left:13%;
   display:flex;
   flex-direction: column;
 
@@ -124,6 +125,7 @@ nav {
 
     .insta{
       width:30%;
+      max-width: 30%;
     }
     .facebook{
       width:30%;
@@ -131,4 +133,5 @@ nav {
     }
   }
 }
+
 </style>
