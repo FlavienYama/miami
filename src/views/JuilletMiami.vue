@@ -1,5 +1,5 @@
 <template>
-    <img class="img-fluid une" src="../assets/3.jpg" alt="">
+    <img class="img-fluid juillet" src="../assets/3.jpg" alt="">
 </template>
 
 <script>
@@ -13,11 +13,12 @@ export default {
 
 <style lang="scss" scoped>
 
-.une{
-  position:absolute;
-  top:27%;
-  right:2%;
-  width:96%;
+.juillet{
+  position:relative;
+  top:195px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
 }
 
 </style>
