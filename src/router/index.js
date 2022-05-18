@@ -3,6 +3,9 @@ import HomeMiami from '../views/HomeMiami.vue'
 import JuinMiami from '../views/JuinMiami.vue'
 import JuilletMiami from '../views/JuilletMiami.vue'
 import AoutMiami from '../views/AoutMiami.vue'
+import JeudisLMB from '../views/JeudisLMB.vue'
+import AsAp from '../views/AsAp.vue'
+
 
 const routes = [
   {
@@ -28,6 +31,18 @@ const routes = [
     name: 'aout',
     // eslint-disable-next-line
     component: AoutMiami
+  },
+  {
+    path: '/jeudis',
+    name: 'jeudis',
+    // eslint-disable-next-line
+    component: JeudisLMB
+  },
+  {
+    path: '/soon',
+    name: 'soon',
+    // eslint-disable-next-line
+    component: AsAp
   },
 ]
 
