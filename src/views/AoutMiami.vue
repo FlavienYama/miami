@@ -1,6 +1,6 @@
 <template>
-      <img class="img-fluid aout" src="../assets/4j.jpg" alt="">
-      <img class="img-fluid aout2" src="../assets/4j2.jpg" alt="">
+      <img class="img-fluid aout" src="../assets/4j.jpg" alt="Aout Partie 1">
+      <img class="img-fluid aout2" src="../assets/4j2.jpg" alt="Aout Partie 2">
 </template>
 
 <script>

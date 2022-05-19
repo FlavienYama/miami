@@ -1,6 +1,6 @@
 <template>
-    <img class="img-fluid juillet" src="../assets/3j.jpg" alt="">
-    <img class="img-fluid juillet2" src="../assets/3j2.jpg" alt="">
+    <img class="img-fluid juillet" src="../assets/3j.jpg" alt="Juillet Partie 1">
+    <img class="img-fluid juillet2" src="../assets/3j2.jpg" alt="Juillet Partie 2">
 </template>
 
 <script>

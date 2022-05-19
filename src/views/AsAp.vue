@@ -1,5 +1,5 @@
 <template>
-    <img class="img-fluid comsoon" src="../assets/comsoon.jpeg" alt="Jeudis LMBD">
+    <img class="img-fluid comsoon" src="../assets/comsoon.jpeg" alt="Prochainement">
 </template>
 
 <script>

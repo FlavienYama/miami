@@ -1,5 +1,5 @@
 <template>
-    <img class="img-fluid juin" src="../assets/2.jpg" alt="">
+    <img class="img-fluid juin" src="../assets/2.jpg" alt="Juin 2022">
 </template>
 
 <script>
