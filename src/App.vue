@@ -56,7 +56,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+// Desktop 
 @font-face {
   font-family: "Golden";
   src: local("Golden"), url("./fonts/Golden Ranger.ttf") format("truetype");
@@ -169,6 +169,8 @@ nav {
     }
   }
 }
+
+// Media 949 px
 @media only screen and (max-width:950px) {
   nav {
   padding: 20px;
@@ -341,7 +343,7 @@ nav {
   
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:459px) {
 nav {
   padding: 20px;
   width:100%;
