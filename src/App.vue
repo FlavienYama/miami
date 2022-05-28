@@ -343,7 +343,7 @@ nav {
   
 }
 
-@media only screen and (max-width:459px) {
+@media only screen and (max-width:460px) {
 nav {
   padding: 20px;
   width:100%;
