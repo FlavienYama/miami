@@ -40,20 +40,28 @@ export default {
 }
 .juillet{
   position:relative;
-  top:195px;
+  top:248px;
   width:80%;
   max-width:80%;
   margin-bottom: -30%;
 }
   .juillet2{
   position:relative;
-  top:505px;
+  top:645px;
   width:80%;
   left:3.1%;
   max-width:80%;
   margin-bottom: -30%;
 }
 @media only screen and (max-width:767px) {
+
+  .juillet{
+  position:relative;
+  top:195px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
+}
   .juillet2{
   position:relative;
   top:305px;

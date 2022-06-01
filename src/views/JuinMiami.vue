@@ -15,10 +15,20 @@ export default {
 
 .juin{
   position:relative;
+    top:248px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
+}
+
+@media only screen and (max-width:767px) {
+  .juin{
+  position:relative;
   top:195px;
   width:80%;
   max-width:80%;
   margin-bottom: -30%;
+}
 }
 
 </style>

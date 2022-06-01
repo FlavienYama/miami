@@ -1,5 +1,5 @@
 <template>
-    <img class="img-fluid comsoon" src="../assets/comsoon.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon" src="../assets/4juin.jpeg" alt="Prochainement">
 </template>
 
 <script>
@@ -15,18 +15,22 @@ export default {
 
 .comsoon{
   position:relative;
-  top:255px;
+  top:275px;
   width:80%;
   max-width:80%;
   margin-bottom: -30%;
+   border: 3px solid white;
+   border-radius: 10px;
 }
 @media only screen and (max-width:767px) {
   .comsoon{
   position:relative;
-  top:295px;
+  top:215px;
   width:80%;
   max-width:80%;
   margin-bottom: -30%;
+   border: 3px solid white;
+   border-radius: 10px;
 }
 }
 

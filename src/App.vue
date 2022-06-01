@@ -16,7 +16,7 @@
 
   <body>
     <div v-if='$route.name == "home"'>
-      <img class="img-fluid une" src="../src/assets/A5.png" alt="Programmation 2k22">
+      <img class="img-fluid une" src="../src/assets/A5.png" @click="goJune()" alt="Programmation 2k22">
     </div>
     <div v-if='$route.name == "home"' class="foot">
       <div class="links">
@@ -44,6 +44,9 @@ export default {
   methods: {
     goHome(){
       this.$router.push('/');
+    },
+      goJune(){
+      this.$router.push('/juin');
     },
     goInsta(){
       window.location.href="https://instagram.com/au_miami?igshid=YmMyMTA2M2Y=";
