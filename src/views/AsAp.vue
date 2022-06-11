@@ -1,5 +1,7 @@
 <template>
-    <img class="img-fluid comsoon" src="../assets/4juin.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon" src="../assets/09_06.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon1" src="../assets/10_06.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon2" src="../assets/11_06.jpeg" alt="Prochainement">
 </template>
 
 <script>
@@ -22,6 +24,24 @@ export default {
    border: 3px solid white;
    border-radius: 10px;
 }
+.comsoon1{
+  position:relative;
+  top:735px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
+   border: 3px solid white;
+   border-radius: 10px;
+}
+.comsoon2{
+  position:relative;
+  top:1195px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
+   border: 3px solid white;
+   border-radius: 10px;
+}
 @media only screen and (max-width:767px) {
   .comsoon{
   position:relative;
@@ -31,6 +51,25 @@ export default {
   margin-bottom: -30%;
    border: 3px solid white;
    border-radius: 10px;
+}
+.comsoon1{
+  position:relative;
+  top:375px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
+   border: 3px solid white;
+   border-radius: 10px;
+}
+.comsoon2{
+  position:relative;
+  top:535px;
+  width:80%;
+  max-width:80%;
+  margin-bottom: -30%;
+   border: 3px solid white;
+   border-radius: 10px;
+   z-index: 1;
 }
 }
 
