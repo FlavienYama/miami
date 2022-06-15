@@ -1,7 +1,7 @@
 <template>
-    <img class="img-fluid comsoon" src="../assets/09_06.jpeg" alt="Prochainement">
-    <img class="img-fluid comsoon1" src="../assets/10_06.jpeg" alt="Prochainement">
-    <img class="img-fluid comsoon2" src="../assets/11_06.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon" src="../assets/15_06.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon1" src="../assets/16_06.jpeg" alt="Prochainement">
+    <img class="img-fluid comsoon2" src="../assets/21_06.jpeg" alt="Prochainement">
 </template>
 
 <script>
