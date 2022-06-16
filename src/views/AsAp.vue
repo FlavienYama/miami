@@ -67,7 +67,7 @@ export default {
   width:80%;
   max-width:80%;
   margin-bottom: -30%;
-   border: 3px solid white;
+   border: 2px solid white;
    border-radius: 10px;
    z-index: 1;
 }
